@@ -355,7 +355,7 @@ void updateTouchScreenOut()
     Serial.write(255);Serial.write(255); //delimiter for touch frames
 
     
-  /*      
+  /*     
     //human readable
     Serial.print(n);
     for(int i=0; i<n; i++)
@@ -364,7 +364,7 @@ void updateTouchScreenOut()
       Serial.print(ts_event.coords[i].finger); Serial.print(" "), Serial.print(ts_event.coords[i].x); Serial.print(" "), Serial.print(ts_event.coords[i].y);            
     }
     Serial.println("");
-  */  
+   */ 
 
     //as raw touchscreen data
     //Serial.write(touch_data,bufferSizeFromPCB);  
